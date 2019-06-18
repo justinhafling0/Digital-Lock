@@ -1,4 +1,4 @@
-# Files
+# Files for Digital Lock
 
 ### VGAController
 File given to use to interact with VGA Display
