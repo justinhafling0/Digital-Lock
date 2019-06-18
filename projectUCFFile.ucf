@@ -1,0 +1,51 @@
+
+NET "Light" LOC = U16 | IOSTANDARD = LVCMOS33;
+
+NET "R[0]" LOC = U7 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L43P, Sch name = RED0
+NET "R[1]" LOC = V7 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L43N, Sch name = RED1
+NET "R[2]" LOC = N7 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L44P, Sch name = RED2
+NET "G[0]" LOC = P8 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L44N, Sch name = GRN0
+NET "G[1]" LOC = T6 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L45P, Sch name = GRN1
+NET "G[2]" LOC = V6 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L45N, Sch name = GRN2
+NET "B[0]" LOC = R7 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L46P, Sch name = BLU1
+NET "B[1]" LOC = T7 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L46N, Sch name = BLU2
+
+NET "HS" LOC = N6 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L47P, Sch name = HSYNC
+NET "VS" LOC = P7 | IOSTANDARD = LVCMOS33; # Bank = 2, pin name = IO_L47N, Sch name = VSYNC
+
+
+NET "enterButton" LOC = D9;
+NET "changeButton" LOC = C4;
+NET "resetButton" LOC = C9;
+NET "clearButton" LOC = B8;
+
+NET "clk" LOC = V10;
+
+NET "SW0" LOC = N8;
+NET "SW1" LOC = U8;
+NET "SW2" LOC = V8;
+NET "SW3" LOC = T5;
+
+NET "AN[0]" LOC = N16;
+NET "AN[1]" LOC = N15;
+NET "AN[2]" LOC = P18;
+NET "AN[3]" LOC = P17;
+
+NET "ssdLINES[6]" LOC = T17;
+NET "ssdLINES[5]" LOC = T18;
+NET "ssdLINES[4]" LOC = U17;
+NET "ssdLINES[3]" LOC = U18;
+NET "ssdLINES[2]" LOC = M14;
+NET "ssdLINES[1]" LOC = N14;
+NET "ssdLINES[0]" LOC = L14;
+
+NET "LED[0]" LOC = T11 | IOSTANDARD = LVCMOS33;
+NET "LED[1]" LOC = R11 | IOSTANDARD = LVCMOS33;
+NET "LED[2]" LOC = N11 | IOSTANDARD = LVCMOS33;
+NET "LED[3]" LOC = M11 | IOSTANDARD = LVCMOS33;
+NET "LED[4]" LOC = V15 | IOSTANDARD = LVCMOS33;
+NET "LED[5]" LOC = U15 | IOSTANDARD = LVCMOS33;
+#NET "LED[6]" LOC = V16;
+
+
+
