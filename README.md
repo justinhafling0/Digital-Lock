@@ -1,12 +1,12 @@
 # Files
 
-## VGAController
+#### VGAController
 File given to use to interact with VGA Display
 
-## VGADisplay
+##### VGADisplay
 Maps the SSD (Seven Segment Display) onto the monitor so that we can display the state of the lock to the user.
 
-## changeOverallStatus
+###### changeOverallStatus
 Determines how the system will change/update when the "change" button is pushed. In the project description, the change button was used to initiate the steps that would allow the user to change the password of the lock.
 
 ## clk_divider
